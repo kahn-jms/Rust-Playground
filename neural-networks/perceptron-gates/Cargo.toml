@@ -1,0 +1,4 @@
+[package]
+name = "perceptron-gates"
+version = "0.1.0"
+authors = ["James Kahn <kahn.jms@gmail.com>"]

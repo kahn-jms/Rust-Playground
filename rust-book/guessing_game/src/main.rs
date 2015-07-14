@@ -8,7 +8,7 @@ use rand::Rng;
 // Main function
 fn main() {
 
-  
+ 
   // Generate a random number (u32?)
   let secret_num = rand::thread_rng().gen_range(1, 101);
   // Let's find out
@@ -18,8 +18,8 @@ fn main() {
 
   // Start a loop while user guesses number
   loop {
-    
-    println!("Make a guess:");
+
+    println!("\nMake a guess:");
 
     // The guess will be read as a string
     let mut guess = String::new();
